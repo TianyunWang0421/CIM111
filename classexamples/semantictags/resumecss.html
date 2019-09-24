@@ -7,60 +7,18 @@
     <meta name="author" content="Zeven" />
     <meta name="keywords" content="basic website">
 
+    <!-- rel = relationship -->
+    <link rel="stylesheet" href="css/layout.css">
+
     <style>
 
-      body{
-        background-color: PapayaWhip;
-        background-color: LightGoldenrodYellow;
-        background-color: #008b8b; /* Hexidecimal */
-        /* rgb color red/green/blue: 0-255 */
-        background-color: rgb(255, 0, 0); /* red */
-        background-color: rgb(255,255,255); /* white, full of colors */
-        background-color: rgb(0,0,0); /* black, the absense of colors */
-        background-color: DarkSalmon;
-      }
-
-      section{
-        background-color: white;
-        /* rgba: red,green,blue,alpha(0-1) */
-        background-color: rgba(255,255,255,0.5); /* white with a 50% opacity */
-      }
-
-      h1{
-        color: orange;
-      }
-
-      h3{
-        color: white;
-        color: #ffffff;
-      }
-
-      h3 em{
-        /* serif font */
-        font-family: sans-serif;
-        color: black;
-        text-decoration: underline;
-      }
-
-      li{
-        font-size: 20px;
-        list-style: circle;
-        /* css alternate defaut elements */
-      }
-
-      ul li{
-        /* find the unordered list and remove the circles */
-        list-style: none;
-      }
-
-
-
     </style>
+
 </head>
 
 <body>
   <header>
-        <h1>Zevensuy Rodriguez</h1>
+        <h1 id="centerName">Zevensuy Rodriguez</h1>
       </header>
       <main>
         <br>
@@ -79,7 +37,7 @@
             <h3><em>Lecturer, University of Miami, School of Communication</em></h3>
             <h5>Classes</h5>
             <ul>
-                <li>Web Lab</li>
+                <li class="bolder">Web Lab</li>
                 <li>Intro to Creative Coding</li>
             </ul>
 
@@ -97,7 +55,8 @@
             <article>
             <h5><b>Stephanie Rothenberg</b></h5>
             <h3>Garden of Virtual Kinship</h3>
-            <p>The Garden of Virtual Kinship is a telematic garden, both real and virtual, whose lifeline directly correlates to monetary exchanges between the developed and developing world.</p>
+              <!-- spank tag allows you to inject a style within a block of text-->
+            <p>The Garden of <spank class="bolder"> Virtual Kinship </spank> is a telematic garden, both real and virtual, whose lifeline directly correlates to monetary exchanges between the developed and developing world.</p>
             <a id="links" href="http://howlinwolves.com/projects/gardenofvirtualkinship.html">More info</a>
             </article>
 

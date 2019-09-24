@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
+
+body{
+  background-color: Lavender;
+}
+
+section{
+  background-color: Snow;
+}
+
+h1{
+  color: BlueViolet;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+h3{
+  color: Navy;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 32px;
+  text-shadow: 1px 1px 1px DodgerBlue;
+}
+
+p{
+  margin: 3% 1em;
+  margin-bottom: 2em;
+}
+
+ul li{
+  list-style: square;
+}
+
+ol li{
+  list-style: lower-roman;
+}
+
+#centerName{
+  text-align: center;
+  text-shadow: 2px 1px 2px black;
+}
+
+#school{
+  background-color: orange;
+  width: 13%;
+}
+
+#outline{
+  outline-style: dashed;
+  outline-width: medium;
+  outline-color: black;
+  margin: 1.2em;
+  margin-bottom: 2em;
+}
+
+#hurricane{
+  background-color: green;
+  width: 25%;
+  color: white;
+}
+
+#contact{
+  background-color: none;
+  margin-bottom: 4em;
+  text-align: center;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+.margin {
+  margin: 1em;
+}
+
+img.display{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:root, body {
+  /* height: 100%; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* flex-flow: column nowrap; */
+  font-family: fantasy;
+}
+
+a{
+  color: darkgray;
+  text-decoration: none;
+}
+
+a:hover{
+  color: Crimson;
+  font-weight: bolder;
+}
+
+a:visited{
+  color: LightSeaGreen;
+}

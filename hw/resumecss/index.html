@@ -6,49 +6,55 @@
     <meta name="author" content="Lydia Wang">
     <meta name="description" content="This website is about Lydia's resume. ">
     <meta name="keywords" content="resume, sophomore">
+
+    <link rel="stylesheet" href="css/layout.css">
+
+    <style>
+
+    </style>
   </head>
 
   <body>
     <header>
-    <h1>Lydia Wang</h1>
+    <h1 id="centerName">Lydia Wang</h1>
     </header>
 
     <main>
-    <img src="images/photograph.JPG" alt="self" height="200">
+    <img class="display" src="images/photograph.JPG" alt="self" height="200">
     <!-- a photograph of myself -->
 
     <br><br>
-    <section>
-    <h3>CONTACT DETAILS</h3>
-      <p><strong>Phone:</strong> 305-326-xxxx</p>
+    <section id="contact">
+    <h3 class="margin">CONTACT DETAILS</h3>
+      <p><strong>Phone:</strong> 305-326-xxxx <br><a href="https://www.skype.com/en/">Click here to call me</a></p>
       <p><strong>Email:</strong> xxx@miami.edu <br><a href="mailto: xxx@miami.edu">Click here to email me</a></p>
-      <address><strong>Address:</strong> 5185 Ponce de Leon Blvd, Miami, FL, 33146</address>
+      <address class="margin"><strong>Address:</strong> 5185 Ponce de Leon Blvd, Miami, FL, 33146</address>
     <!-- address tag -->
     </section>
 
     <br><br>
     <section>
-    <h3>CAREER OBJECTIVE</h3>
+    <h3 class="margin">CAREER OBJECTIVE</h3>
       <p>A motivated student who demonstrates a strong work ethic and creative ability. Seeking to apply my web development, media management, and graphic design skills. Will leverage proved experience as a competent person to contribute to company goals and needs. </p>
       <!-- a paragraph about myself -->
     </section>
 
     <br>
     <section>
-    <h3>EDUCATION</h3>
-      <h4>University of Miami</h4>
+    <h3 class="margin">EDUCATION</h3>
+      <h4 class="margin" id="school">University of Miami</h4>
       <p>Coral Gables, FL</p>
-      <a href="http://www.miami.edu">Click here to go to UMiami school website</a>
+      <a class="margin" href="http://www.miami.edu">Click here to go to UMiami school website</a>
       <p><em>Expected: May 2022</em></p>
-      <p>Bachelor of Science in Interactive Media & Media Management</p>
-      <p>Minors: Communication Studies & Art and Art History</p>
+      <p class="bolder">Bachelor of Science in Interactive Media & Media Management</p>
+      <p class="bolder">Minors: Communication Studies & Art and Art History</p>
     </section>
 
     <br>
     <section>
-    <h3>WORK EXPERIENCE</h3>
+    <h3 class="margin">WORK EXPERIENCE</h3>
       <section>
-        <h4>VW Education  <br><strong>Tutor</strong></h4>
+        <h4 class="margin">VW Education  <br><strong>Tutor</strong></h4>
           <p><strong>Chongqing, China</strong>  <br>June, 2017 – Present</p>
             <ul>
               <li>Provide students with one-on-one tutoring for TOEFL, SAT, SAT II, AP</li>
@@ -58,9 +64,9 @@
             </ul>
             <!-- unordered list -->
       </section>
-    <br>
+    <br><br>
       <section>
-        <h4>LFR Organization  <br><strong>Founder</strong></h4>
+        <h4 class="margin">LFR Organization  <br><strong>Founder</strong></h4>
           <p><strong>Chongqing, China</strong>  <br>March, 2015 – Present</p>
             <ul>
               <li>An organization to integrate developmentally disabled children into class environment</li>
@@ -74,7 +80,7 @@
 
     <br>
     <section>
-    <h3>HOBBIES AND INTERESTS</h3>
+    <h3 class="margin">HOBBIES AND INTERESTS</h3>
       <ol>
         <li>dancing hip-hop and ballet</li>
         <li>tennis</li>
@@ -86,8 +92,8 @@
 
     <br>
     <section>
-    <h3>SKILLS</h3>
-      <table width="400">
+    <h3 class="margin">SKILLS</h3>
+      <table width="500" id="outline">
         <tr>
           <th>Adobe</th>
           <td>Photoshop</td>
@@ -110,7 +116,7 @@
     </main>
 
     <footer>
-
+      <p id="hurricane">It is GREAT to be a MIAMI HURRICANE</p>
     </footer>
 
   </body>

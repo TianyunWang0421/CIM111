@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+
+body{
+  background-color: PapayaWhip;
+  background-color: LightGoldenrodYellow;
+  background-color: #008b8b; /* Hexidecimal */
+  /* rgb color red/green/blue: 0-255 */
+  background-color: rgb(255, 0, 0); /* red */
+  background-color: rgb(255,255,255); /* white, full of colors */
+  background-color: rgb(0,0,0); /* black, the absense of colors */
+  background-color: DarkSalmon;
+}
+
+section{
+  background-color: white;
+  /* rgba: red,green,blue,alpha(0-1) */
+  background-color: rgba(255,255,255,0.5); /* white with a 50% opacity */
+}
+
+h1{
+  color: orange;
+  font-family: 'Dancing Script', cursive;
+}
+
+h3{
+  color: white;
+  color: #ffffff;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700; /* bolder dancing script */
+}
+
+h3 em{
+  /* serif font */
+  font-family: sans-serif;
+  color: black;
+  text-decoration: underline;
+}
+
+li{
+  font-size: 20px;
+  list-style: circle;
+  /* css alternate defaut elements */
+}
+
+ul li{
+  /* find the unordered list and remove the circles */
+  list-style: none;
+}
+
+#centerName{
+  /* id is an attribution, can only be used once */
+  text-align: center;
+}
+
+.bolder{
+  /* this is a class */
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a{
+  /* style the links */
+  color: green;
+  text-decoration: none;
+}
+
+a:visited{
+  /* style the vistied link */
+  color: aqua;
+}
+
+a:hover{
+  /* style the link when the mouse on it */
+  background-color: red;
+  font-style: italic;
+}

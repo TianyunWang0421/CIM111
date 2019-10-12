@@ -1,0 +1,57 @@
+@import "desktop.css";
+
+header{
+  width: 380px;
+  height: auto;
+}
+
+main{
+  width: 380px;
+}
+
+footer{
+  width: 380px;
+}
+
+nav{
+  width: 360px;
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+}
+
+#grid1, #grid2, #grid3, #grid4{
+  width: 380px;
+  display: block;
+  height: auto;
+}
+
+#grid1{
+  display: grid;
+  grid-template-columns: 380px;
+  grid-template-rows: 365px 365px 365px 365px 365px 365px 365px 365px 365px 365px 365px 360px;
+}
+
+#grid1 img{
+  width: 380px;
+  height: auto;
+}
+
+#grid2{
+  height: 485px;
+}
+
+#grid2 img{
+  width: 380px;
+}
+
+#grid3{
+  height: 1562px;
+}
+
+#grid3 img{
+  width: 380px;
+  height: auto;
+}

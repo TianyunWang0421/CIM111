@@ -4,126 +4,18 @@
     <meta charset="utf-8">
     <title>SuperTravel</title>
 
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 600px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 600px)">
+
     <style media="screen">
-      header{
-        color: white;
-        background-color: rgb(27,27,80);
-        width: 920px;
-        height: 230px;
-        padding: 20px 20px 20px 20px;
-        margin: 0 auto;
-        margin-top: -10px;
-      }
-
-      main{
-        background-color: Lavender;
-        width: 920px;
-        height: auto;
-        padding: 20px 20px 20px 20px;
-        margin: 10px auto;
-      }
-
-      footer{
-        color: white;
-        background-color: rgb(27,27,80);
-        width: 920px;
-        height: auto;
-        padding: 20px 20px 20px 20px;
-        margin: 0 auto;
-        margin-bottom: -10px;
-      }
-
-      nav{
-        color: black;
-        background-color: LavenderBlush;
-        width: 500px;
-        margin: auto;
-        border-style: dashed;
-        border-width: 4px;
-        border-color: MediumPurple;
-      }
-
-      nav ul li{
-        list-style: none;
-        display: inline-block;
-        margin: auto;
-        padding: 7px;
-      }
-
-      nav ul li a{
-        color: black;
-        text-decoration: none;
-      }
-
-      nav ul li a:hover{
-        font-weight: bolder;
-      }
-
-      footer a{
-        color: darkgray;
-        text-decoration: none;
-      }
-
-      footer a:hover{
-        color: Crimson;
-        font-weight: bolder;
-      }
-
-      footer a:visited{
-        color: LightSeaGreen;
-      }
-
-      ul li{
-        list-style: square;
-      }
-
-      #grid1{
-        width: 900px;
-        height: auto;
-        margin: 0 auto;
-        display: grid;
-        grid-template-rows: 200px 200px 200px 200px;
-        grid-template-columns: 300px 300px 300px;
-        grid-column-gap: 20px;
-      }
-
-      #grid2{
-        width: 900px;
-        height: auto;
-        margin: 0 auto;
-        display: grid;
-        grid-template-rows: 350px;
-        grid-template-columns: 300px 300px 300px;
-        grid-column-gap: 20px;
-      }
-
-      #grid3{
-        width: 900px;
-        height: auto;
-        margin: 0 auto;
-        display: grid;
-        grid-template-rows: 600px;
-        grid-template-columns: 300px 300px 300px;
-        grid-column-gap: 20px;
-      }
-
-      #grid4{
-        width: 900px;
-        height: auto;
-        margin: 0 auto;
-        display: grid;
-        grid-template-rows: 300px;
-        grid-template-columns: 300px 300px 300px;
-        grid-column-gap: 20px;
-      }
 
     </style>
   </head>
 
   <body>
     <header>
-      <h1>SUPERTRAVEL</h1>
-      <h2>FRANCE 2-DAY TRAVEL</h2>
+      <h1 class="h1h2" class="margin">SUPERTRAVEL</h1>
+      <h2 class="h1h2">FRANCE 2-DAY TRAVEL</h2>
 
       <nav>
         <ul>
@@ -148,63 +40,90 @@
     </header>
 
     <main>
-      <h2 id="home">Enjoy the Best of France in 2 Days :)</h2>
+      <h2 id="home" class="title">Enjoy the Best of France in 2 Days :)</h2>
 
-      <h3>10 TOP-RATED TOURIST ATTRACTIONS</h3>
+      <br>
+      <h3 class="title">12 TOP-RATED TOURIST ATTRACTIONS</h3>
       <section id="grid1">
         <section>
-          <p>Louvre Museum</p>
+          <a href="https://en.wikipedia.org/wiki/Louvre">Louvre Museum</a>
+          <br><br>
           <img src="images/louvre.jpg" alt="louvre" height="150">
         </section>
         <section>
-          <p>Eiffel Tower</p>
+          <a href="https://en.wikipedia.org/wiki/Eiffel_Tower">Eiffel Tower</a>
+          <br><br>
           <img src="images/eiffel.jpg" alt="eiffel" height="150">
         </section>
         <section>
-          <p>Cathédrale Notre-Dame de Paris</p>
+          <a href="https://en.wikipedia.org/wiki/Notre-Dame_de_Paris">Cathédrale Notre-Dame de Paris</a>
+          <br><br>
           <img src="images/notre.jpg" alt="notre" height="150">
         </section>
         <section>
-          <p>Palace of Versailles</p>
+          <a href="https://en.wikipedia.org/wiki/Palace_of_Versailles">Palace of Versailles</a>
+          <br><br>
           <img src="images/versailles.jpg" alt="versailles" height="150">
         </section>
         <section>
-          <p>Arc de Triomphe</p>
+          <a href="https://en.wikipedia.org/wiki/Arc_de_Triomphe">Arc de Triomphe</a>
+          <br><br>
           <img src="images/triomphe.jpg" alt="triomphe" height="150">
         </section>
         <section>
-          <p>Sacré-Cœur</p>
+          <a href="https://en.wikipedia.org/wiki/Sacré-Cœur,_Paris">Sacré-Cœur</a>
+          <br><br>
           <img src="images/sacre.jpg" alt="sacre" height="150">
         </section>
         <section>
-          <p>Moulin Rouge</p>
+          <a href="https://en.wikipedia.org/wiki/Moulin_Rouge">Moulin Rouge</a>
+          <br><br>
           <img src="images/moulin.jpg" alt="moulin" height="150">
         </section>
         <section>
-          <p>Côte d’Azur</p>
+          <a href="https://en.wikipedia.org/wiki/French_Riviera">Côte d’Azur</a>
+          <br><br>
           <img src="images/cote.jpg" alt="cote" height="150">
         </section>
         <section>
-          <p>Chamonix-Mont-Blanc</p>
+          <a href="https://en.wikipedia.org/wiki/Chamonix">Chamonix-Mont-Blanc</a>
+          <br><br>
           <img src="images/chamonix.jpg" alt="chamonix" height="150">
         </section>
         <section>
-          <p>Mont Saint-Michel</p>
+          <a href="https://en.wikipedia.org/wiki/Mont-Saint-Michel">Mont Saint-Michel</a>
+          <br><br>
           <img src="images/mont.jpg" alt="mont" height="150">
+        </section>
+        <section>
+          <a href="https://en.wikipedia.org/wiki/Musée_d%27Orsay">Musée d'Orsay</a>
+          <br><br>
+          <img src="images/musee.jpg" alt="musee" height="150">
+        </section>
+        <section>
+          <a href="https://en.wikipedia.org/wiki/Disneyland_Paris">Disneyland Paris</a>
+          <br><br>
+          <img src="images/disney.jpg" alt="disney" height="150">
         </section>
       </section>
 
-      <h3 id="overview">GENERAL OVERVIEW</h3>
+      <br>
+      <h3 id="overview" class="title">GENERAL OVERVIEW</h3>
       <section id="grid2">
         <p>Discover Paris through several different tours, taken over the course of two days. Explore the Louvre Museum, take a city tour by private vehicle or electric bicycle, and embark on a Seine River cruise in the City of Light. Then follow in the footsteps of Parisian artists during a private tour of Montmartre, and visit Île de la Cité (Island of the City) for wine and cheese tasting. Priority entrance is included at museums and monuments.</p>
+        <img src="images/panoramic.jpg" alt="panoramic" height="275">
       </section>
 
-      <h3 id="explore">LET’S EXPLORE</h3>
+      <br>
+      <h3 id="explore" class="title">LET’S EXPLORE</h3>
       <section id="grid3">
-        <p>On the morning of your first day in Paris, receive a VIP welcome reception at the tour office. Sip tea or coffee while a personal concierge provides a detailed schedule and other relevant information about your 2-day package, which includes five separately guided tours on foot, by bicycle, by car, and by boat, scheduled across two different days. Visit the Louvre, see Paris neighborhoods, explore Montmartre and Île de la Cité, and take a Seine River cruise. At each destination, meet certified guides who inform you about the history of Paris through amusing anecdotes during private tours or small-group tours limited to a maximum of six or 10 people. You’ll have skip-the-line access to monuments and museums visited, and have time to grab meals and find your own transport between activities. Imagine cruising effortlessly through the parks and sidewalks of Paris while receiving a great orientation, informative historical and current-day information, heaps of unique and fascinating stories, great photo opportunities and superb personal service from your guide.</p>
+        <img src="images/statue1.jpg" alt="statue1" height="400">
+        <p>Sip tea or coffee while a personal concierge provides a detailed schedule and other relevant information about your 2-day package, which includes five separately guided tours on foot, by bicycle, by car, and by boat, scheduled across two different days. Visit the Louvre, see Paris neighborhoods, explore Montmartre and Île de la Cité, and take a Seine River cruise. At each destination, meet certified guides who inform you about the history of Paris through amusing anecdotes during private tours or small-group tours limited to a maximum of six or 10 people. You’ll have skip-the-line access to monuments and museums visited, and have time to grab meals and find your own transport between activities. Imagine cruising effortlessly through the parks and sidewalks of Paris while receiving a great orientation, informative historical and current-day information, heaps of unique and fascinating stories, great photo opportunities and superb personal service from your guide.</p>
+        <img src="images/statue2.jpg" alt="statue2" height="400">
       </section>
 
-      <h3 id="itinerary">ITINERARY DETAILS</h3>
+      <br>
+      <h3 id="itinerary" class="title">ITINERARY DETAILS</h3>
       <section id="grid4">
         <section>
           <h4>What’s included</h4>
@@ -241,7 +160,7 @@
     </main>
 
     <footer>
-      <h3 id="contact">CONTACT US</h3>
+      <h3 id="contact" class="title">CONTACT US</h3>
         <p><strong>Phone:</strong> 305-300-xxxx <br><a href="https://www.skype.com/en/">Click here to call us</a></p>
         <p><strong>Email:</strong> supertravel@gmail.com <br><a href="mailto: xxx@gmail.com">Click here to email us</a></p>
         <address><strong>Address:</strong> 5185 Ponce de Leon Blvd, Miami, FL, 33146</address>

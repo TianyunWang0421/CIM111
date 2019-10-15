@@ -17,14 +17,18 @@ nav{
   width: 360px;
 }
 
+nav ul{
+  margin-left: -35px;
+}
+
 nav ul li{
   display: block;
   text-align: center;
 }
 
 #grid1, #grid2, #grid3, #grid4{
-  width: 380px;
   display: block;
+  width: 380px;
   height: auto;
 }
 

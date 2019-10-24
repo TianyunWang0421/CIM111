@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1 id="changeBackground">Click here to change background color</h1>
+    <h1 id="changeOrange">Click here to change background color to orange</h1>
+
+    <ul>
+      <li id="item1">item 1</li>
+      <li id="item2">item 2</li>
+      <li id="item3">item 3</li>
+    </ul>
+
+    <p id="changeText"></p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+        //all code goes in here
+
+        /*
+        multi
+        line
+        comment
+        */
+
+        $("#changeBackground").click(function(){
+          $("body").css("background-color", "purple");
+        }); //end of changeBackground click
+
+        $("#changeOrange").click(function(){
+          $("body").css("background-color", "orange");
+        }); //end of changeOrange
+
+        $("#item1").mouseenter(function(){
+          $("#changeText").html("Hello there!");
+        }); //end of item1 mouseenter
+
+        $("#item2").mouseenter(function(){
+          $("#changeText").html("<strong>this is bold</strong>");
+        });
+
+        $("#item3").mouseenter(function(){
+          $("#changeText").html("<img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9570cc59247105.5a1b7bddc972b.jpg' alt='image 1'>");
+        });
+
+      }); //end of document ready
+    </script>
+
+
+  </body>
+</html>

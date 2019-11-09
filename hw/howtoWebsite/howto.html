@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>How To Make Coconut Jelly</title>
 
+    <link rel="stylesheet" href="/css/master.css">
+
     <style media="screen">
 
     @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
@@ -13,7 +15,7 @@
       color:white;
       background-color: #31655A;
       width: auto;
-      height: auto;
+      height: 210px;
       padding: 20px 20px 20px 20px;
       margin: 0 auto;
       font-family: 'Bowlby One SC', cursive;
@@ -57,18 +59,35 @@
       padding: 20px 20px 20px 20px;
       margin: 0 auto;
       font-family: 'Titillium Web', sans-serif;
-      font-weight: 400; 
+      font-weight: 400;
     }
 
     footer{
+      color: white;
+      text-align: right;
+      background-color: #31655A;
+      width: auto;
+      height: 10px;
+      padding: 0px 20px 18px 40px;
+      margin: 0 auto;
+      margin-top: -20px;
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 400;
+    }
 
+    .title{
+      font-family: 'Bowlby One SC', cursive;
+      font-weight: lighter;
     }
 
     #grid1{
       width: auto;
       height: auto;
       margin: 0 auto;
+      margin-left: 20px;
       display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 2fr 2fr 2fr;
     }
 
     #grid2{
@@ -76,24 +95,36 @@
       height: auto;
       margin: 0 auto;
       display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 250px 1fr;
+      grid-column-gap: 6px;
     }
 
     #grid3{
       width: auto;
       height: auto;
       margin: 0 auto;
+      margin-left: 20px;
       display: grid;
+    }
+
+    .steps{
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 2fr;
     }
 
     #grid4{
       width: auto;
       height: auto;
       margin: 0 auto;
+      margin-left: 20px;
       display: grid;
     }
 
     </style>
   </head>
+
   <body>
     <header>
       <h1 id="h1">How To Make Coconut Jelly</h1>
@@ -120,74 +151,149 @@
       <!-- intro paragraph -->
 
       <br>
-      <h3 id="intro">Intro</h3>
+      <h3 id="intro" class="title">INTRO</h3>
       <section id="grid1">
-        <ul>
-          <li>Prep Time: 10min</li>
-          <li>Cook time: 20min</li>
-          <li>Total Time: 4hrs</li>
-          <li>Serves: 4</li>
-          <li>Catagory: Dessert, Vegan</li>
-        </ul>
-      </section>
-
-      <br>
-      <h3 id="ingredients">Ingredients</h3>
-      <section  id="grid2">
-        <ul>
-          <li>1 cup coconut water</li>
-          <li>1 cup whole milk</li>
-          <li>2 cups coconut milk</li>
-          <li>1/2 cup agar agar flakes</li>
-          <li>4 Tbsp sugar</li>
-          <li>1 pinch salt</li>
-          <!-- 5 item list -->
-        </ul>
-      </section>
-
-      <br>
-      <h3 id="directions">Directions</h3>
-      <section  id="grid3">
         <section>
-          <h4>Step 1</h4>
-          <p>In a small pot, add coconut water and whole milk, then sprinkle on agar agar powder and stir to distribute the powder and mix. </p>
+          <p>Prep Time: 10min</p>
         </section>
         <section>
-          <h4>Step 2</h4>
-          <p>Bring to a boil over medium heat, stirring frequently. Once it comes to a full boil, the agar powder should be completely dissolved, but you can double check by spooning some liquid into a metal spoon, then pour it off, and if there are no tiny grains still stuck to the spoon, then you’re good to go. </p>
+          <p>Cook time: 20min</p>
         </section>
         <section>
-          <h4>Step 3</h4>
-          <p>Add coconut milk, sugar, salt. Lower the heat to the lowest setting and keep the pot covered for a while. </p>
+          <p>Total Time: 4hrs</p>
         </section>
         <section>
-          <h4>Step 4</h4>
-          <p>Pour these mix into your dish, spoon off any bubbles, then refrigerate just until the top has set (about 5 minutes if you’re using the same measurements as me). You can test this by gently tapping the layer with your finger, and if it’s no longer liquid and doesn’t stick to your finger, it’s ready to go. </p>
+          <p>Serves: 4-6</p>
         </section>
         <section>
-          <h4>Step 5</h4>
-          <p>Once you’re finished, let the jelly refrigerate for at least 4 hours so it is nice and cold when you serve it. When ready, cut into cubes with a sharp knife. </p>
-        </section>
-        <section>
-          <h4>Step 6</h4>
-          <p>Enjoy your delicous desserts!!! </p>
+          <p>Catagory: Dessert, Vegan</p>
         </section>
       </section>
 
       <br>
-      <h3 id="notes">Recipe Notes</h3>
-      <section  id="grid4">
-        <p></p>
+      <h3 id="ingredients" class="title">INGREDIENTS</h3>
+      <section id="grid2">
+        <section>
+          <ul>
+            <li>1 cup coconut water</li>
+            <li>1 cup whole milk</li>
+            <li>2 cups coconut milk</li>
+            <li>1/2 cup agar agar flakes</li>
+            <li>4 Tbsp sugar</li>
+            <li>1 pinch salt</li>
+            <!-- 5 item list -->
+          </ul>
+        </section>
+        <section>
+          <br>
+          <img src="" alt="a">
+        </section>
+      </section>
+
+      <br>
+      <h3 id="directions" class="title">DIRECTIONS</h3>
+      <section id="grid3">
+        <section>
+          <h4 id="toggle1">STEP 1</h4>
+          <section class="steps" id="step1">
+            <p id="change1">step1</p>
+            <img src="" alt="y">
+          </section>
+        </section>
+        <section>
+          <h4 id="toggle2">STEP 2</h4>
+          <section class="steps" id="step2">
+            <p id="change2">step2</p>
+          </section>
+        </section>
+        <section>
+          <h4 id="toggle3">STEP 3</h4>
+          <section class="steps" id="step3">
+            <p id="change3">step3</p>
+          </section>
+        </section>
+        <section>
+          <h4 id="toggle4">STEP 4</h4>
+          <section class="steps" id="step4">
+            <p id="change4">step4</p>
+          </section>
+        </section>
+        <section>
+          <h4 id="toggle5">STEP 5</h4>
+          <section class="steps" id="step5">
+            <p id="change5">step5</p>
+          </section>
+        </section>
+        <section>
+          <h4 id="toggle6">STEP 6</h4>
+          <section class="steps" id="step6">
+            <p id="change6">step6</p>
+          </section>
+        </section>
+      </section>
+
+      <br>
+      <h3 id="notes" class="title">RECIPE NOTES</h3>
+      <section id="grid4">
+        <p>Tip 1: You can add some corn starch with milk to reduce the cooking time! </p>
+        <br>
+        <p>Tip 2: You can add milk cream to increase the smell of milk! </p>
+        <br>
+        <p>Tip 3: Pop the bubbles with a toothpick before putting the container to the fridge! </p>
       </section>
 
     </main>
 
     <footer>
-
+      <p>Visit our website for more information. </p>
     </footer>
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
+
+    $(document).ready(function(){
+      $("h4").css("text-decoration", "underline");
+
+      $("#step1").hide();
+      $("#step2").hide();
+      $("#step3").hide();
+      $("#step4").hide();
+      $("#step5").hide();
+      $("#step6").hide();
+      $(".steps").hide();
+
+      $("#toggle1").click(function(){
+        $("#step1").slideToggle(1000);
+        $("#change1").html("In a small pot, add coconut water and whole milk, then sprinkle on agar agar powder and stir to distribute the powder and mix. ");
+      });
+
+      $("#toggle2").click(function(){
+        $("#step2").slideToggle(1000);
+        $("#change2").html("Bring to a boil over medium heat, stirring frequently. Once it comes to a full boil, the agar powder should be completely dissolved, but you can double check by spooning some liquid into a metal spoon, then pour it off, and if there are no tiny grains still stuck to the spoon, then you’re good to go. ");
+      });
+
+      $("#toggle3").click(function(){
+        $("#step3").slideToggle(1000);
+        $("#change3").html("Add coconut milk, sugar, salt. Lower the heat to the lowest setting and keep the pot covered for a while. ");
+      });
+
+      $("#toggle4").click(function(){
+        $("#step4").slideToggle(1000);
+        $("#change4").html("Pour these mix into your dish, spoon off any bubbles, then refrigerate just until the top has set (about 5 minutes if you’re using the same measurements as me). You can test this by gently tapping the layer with your finger, and if it’s no longer liquid and doesn’t stick to your finger, it’s ready to go. ");
+      });
+
+      $("#toggle5").click(function(){
+        $("#step5").slideToggle(1000);
+        $("#change5").html("Once you’re finished, let the jelly refrigerate for at least 4 hours so it is nice and cold when you serve it. When ready, cut into cubes with a sharp knife. ");
+      });
+
+      $("#toggle6").click(function(){
+        $("#step6").slideToggle(1000);
+        $("#change6").html("Enjoy your delicous desserts!!! ");
+      });
+
+    });
+
 
     </script>
 

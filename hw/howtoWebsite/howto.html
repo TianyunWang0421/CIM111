@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>How To Make Coconut Jelly</title>
 
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/zoomove/1.2.1/zoomove.min.css"> -->
+    <link rel="stylesheet" href="dist/zoomove.min.css">
+
+    <link type="text/css" rel="stylesheet" href="distlight/css/lightgallery.css" />
 
     <style media="screen">
 
@@ -126,6 +131,7 @@
   </head>
 
   <body>
+
     <header>
       <h1 id="h1">How To Make Coconut Jelly</h1>
       <nav>
@@ -147,6 +153,8 @@
     </header>
 
     <main>
+
+
       <h2>Homemade jelly desserts are not just for children. These soft and silky treats are easy to make and always a favorite at parties and potlucks for all ages. Before you dive into making these coconut jelly dessert that does not require a special occasion, you should know that this simple recipe uses agar agar. </h2>
       <!-- intro paragraph -->
 
@@ -184,9 +192,14 @@
             <!-- 5 item list -->
           </ul>
         </section>
-        <section>
+        <section class="lightgallery">
           <br>
-          <img src="" alt="a">
+          <a href="images/coconut.JPG"><img src="images/coconut.JPG" alt="coconut water" width="100"></a>
+          <a href="images/milk.JPG"><img src="images/milk.JPG" alt="whole milk" width="100"></a>
+          <a href="images/sugar.JPG"><img src="images/sugar.JPG" alt="sugar" width="100"></a>
+          <a href="images/salt.JPG"><img src="images/salt.JPG" alt="salt" width="100"></a>
+          <a href="images/cream.JPG"><img src="images/cream.JPG" alt="cream" width="100"></a>
+          <a href="images/starch.JPG"><img src="images/starch.JPG" alt="starch" width="100"></a>
         </section>
       </section>
 
@@ -197,37 +210,42 @@
           <h4 id="toggle1">STEP 1</h4>
           <section class="steps" id="step1">
             <p id="change1">step1</p>
-            <img src="" alt="y">
+            <figure class="zoo-item" data-zoo-image="images/s1.JPG" data-zoo-over="true" data-zoo-move="false"></figure>
           </section>
         </section>
         <section>
           <h4 id="toggle2">STEP 2</h4>
           <section class="steps" id="step2">
             <p id="change2">step2</p>
+            <figure class="zoo-item" data-zoo-image="images/s2.JPG" data-zoo-over="true" data-zoo-move="false"></figure>
           </section>
         </section>
         <section>
           <h4 id="toggle3">STEP 3</h4>
           <section class="steps" id="step3">
             <p id="change3">step3</p>
+            <figure class="zoo-item" data-zoo-image="images/s3.JPG" data-zoo-over="true" data-zoo-move="false"></figure>
           </section>
         </section>
         <section>
           <h4 id="toggle4">STEP 4</h4>
           <section class="steps" id="step4">
             <p id="change4">step4</p>
+            <figure class="zoo-item" data-zoo-image="images/s4.JPG" data-zoo-over="true" data-zoo-move="false"></figure>
           </section>
         </section>
         <section>
           <h4 id="toggle5">STEP 5</h4>
           <section class="steps" id="step5">
             <p id="change5">step5</p>
+            <figure class="zoo-item" data-zoo-image="images/s5.JPG" data-zoo-over="true" data-zoo-move="false"></figure>
           </section>
         </section>
         <section>
           <h4 id="toggle6">STEP 6</h4>
           <section class="steps" id="step6">
             <p id="change6">step6</p>
+            <figure class="zoo-item" data-zoo-image="images/s5.JPG" data-zoo-over="true" data-zoo-move="false"></figure>
           </section>
         </section>
       </section>
@@ -249,6 +267,11 @@
     </footer>
 
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="dist/zoomove.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="distlight/js/lightgallery.min.js"></script>
+
+
     <script type="text/javascript">
 
     $(document).ready(function(){
@@ -291,6 +314,17 @@
         $("#step6").slideToggle(1000);
         $("#change6").html("Enjoy your delicous desserts!!! ");
       });
+
+       $('.zoo-item').ZooMove();
+
+      // $('.zoo-item').ZooMove({
+			// 	cursor: 'true',
+			// 	scale: '1.2',
+			// });
+
+
+      $(".lightgallery").lightGallery();
+
 
     });
 

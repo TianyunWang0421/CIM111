@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600&display=swap');
+
+header{
+  color:white;
+  background-color: #31655A;
+  width: auto;
+  height: 210px;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+#h1{
+  text-align: center;
+}
+
+nav{
+  color: #31655A;
+  background-color: #ECFFE8;
+  width: 575px;
+  margin: auto;
+  border-style: dashed;
+  border-width: 4px;
+  border-color: #67BFB0;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+  margin-left: 1px;
+  padding: 8px;
+}
+
+nav ul li a{
+  color: #31655A;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  font-weight: bolder;
+}
+
+main{
+  background-color: #F7F6EE;
+  width: auto;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+}
+
+footer{
+  color: white;
+  text-align: right;
+  background-color: #31655A;
+  width: auto;
+  height: 10px;
+  padding: 0px 20px 18px 40px;
+  margin: 0 auto;
+  margin-top: -20px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+}
+
+.title{
+  color: #31655A;
+  font-family: 'Bowlby One SC', cursive;
+  font-weight: lighter;
+}
+
+#grid1{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+#grid2{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 250px 1fr;
+  grid-column-gap: 6px;
+}
+
+#grid3{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 20px;
+  display: grid;
+}
+
+.steps{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 20px;
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 2fr 2fr;
+}
+
+#grid4{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 20px;
+  display: grid;
+}

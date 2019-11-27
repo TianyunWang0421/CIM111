@@ -184,65 +184,65 @@
 
     <script type="text/javascript">
 
-    $(document).ready(function(){
-      $("h4").css("text-decoration", "underline");
+      $(document).ready(function(){
+        $("h4").css("text-decoration", "underline");
 
-      $("#step1").hide();
-      $("#step2").hide();
-      $("#step3").hide();
-      $("#step4").hide();
-      $("#step5").hide();
-      $("#step6").hide();
-      $(".steps").hide();
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $(".steps").hide();
 
-      $("#toggle1").click(function(){
-        $("#step1").slideToggle(1000);
-        $("#change1").html("In a small pot, add coconut water and whole milk, then sprinkle on agar agar powder and stir to distribute the powder and mix. ");
-        $(".zoo-item").css("width","200px");
-        $(".zoo-item").css("height","200px");
+        $("#toggle1").click(function(){
+          $("#step1").slideToggle(1000);
+          $("#change1").html("In a small pot, add coconut water and whole milk, then sprinkle on agar agar powder and stir to distribute the powder and mix. ");
+          $(".zoo-item").css("width","200px");
+          $(".zoo-item").css("height","200px");
+
+        });
+
+        $("#toggle2").click(function(){
+          $("#step2").slideToggle(1000);
+          $("#change2").html("Bring to a boil over medium heat, stirring frequently. Once it comes to a full boil, the agar powder should be completely dissolved, but you can double check by spooning some liquid into a metal spoon, then pour it off, and if there are no tiny grains still stuck to the spoon, then you’re good to go. ");
+          $(".zoo-item").css("width","200px");
+          $(".zoo-item").css("height","200px");
+        });
+
+        $("#toggle3").click(function(){
+          $("#step3").slideToggle(1000);
+          $("#change3").html("Add coconut milk, sugar, salt. Lower the heat to the lowest setting and keep the pot covered for a while. ");
+          $(".zoo-item").css("width","200px");
+          $(".zoo-item").css("height","200px");
+        });
+
+        $("#toggle4").click(function(){
+          $("#step4").slideToggle(1000);
+          $("#change4").html("Pour these mix into your dish, spoon off any bubbles, then refrigerate just until the top has set (about 5 minutes if you’re using the same measurements as me). You can test this by gently tapping the layer with your finger, and if it’s no longer liquid and doesn’t stick to your finger, it’s ready to go. ");
+          $(".zoo-item").css("width","200px");
+          $(".zoo-item").css("height","200px");
+        });
+
+        $("#toggle5").click(function(){
+          $("#step5").slideToggle(1000);
+          $("#change5").html("Once you’re finished, let the jelly refrigerate for at least 4 hours so it is nice and cold when you serve it. When ready, cut into cubes with a sharp knife. ");
+          $(".zoo-item").css("width","200px");
+          $(".zoo-item").css("height","200px");
+        });
+
+        $("#toggle6").click(function(){
+          $("#step6").slideToggle(1000);
+          $("#change6").html("Enjoy your delicous desserts!!! ");
+          $(".zoo-item").css("width","200px");
+          $(".zoo-item").css("height","200px");
+        });
+
+        $('.zoo-item').ZooMove();
+
+        $(".lightgallery").lightGallery();
 
       });
-
-      $("#toggle2").click(function(){
-        $("#step2").slideToggle(1000);
-        $("#change2").html("Bring to a boil over medium heat, stirring frequently. Once it comes to a full boil, the agar powder should be completely dissolved, but you can double check by spooning some liquid into a metal spoon, then pour it off, and if there are no tiny grains still stuck to the spoon, then you’re good to go. ");
-        $(".zoo-item").css("width","200px");
-        $(".zoo-item").css("height","200px");
-      });
-
-      $("#toggle3").click(function(){
-        $("#step3").slideToggle(1000);
-        $("#change3").html("Add coconut milk, sugar, salt. Lower the heat to the lowest setting and keep the pot covered for a while. ");
-        $(".zoo-item").css("width","200px");
-        $(".zoo-item").css("height","200px");
-      });
-
-      $("#toggle4").click(function(){
-        $("#step4").slideToggle(1000);
-        $("#change4").html("Pour these mix into your dish, spoon off any bubbles, then refrigerate just until the top has set (about 5 minutes if you’re using the same measurements as me). You can test this by gently tapping the layer with your finger, and if it’s no longer liquid and doesn’t stick to your finger, it’s ready to go. ");
-        $(".zoo-item").css("width","200px");
-        $(".zoo-item").css("height","200px");
-      });
-
-      $("#toggle5").click(function(){
-        $("#step5").slideToggle(1000);
-        $("#change5").html("Once you’re finished, let the jelly refrigerate for at least 4 hours so it is nice and cold when you serve it. When ready, cut into cubes with a sharp knife. ");
-        $(".zoo-item").css("width","200px");
-        $(".zoo-item").css("height","200px");
-      });
-
-      $("#toggle6").click(function(){
-        $("#step6").slideToggle(1000);
-        $("#change6").html("Enjoy your delicous desserts!!! ");
-        $(".zoo-item").css("width","200px");
-        $(".zoo-item").css("height","200px");
-      });
-
-       $('.zoo-item').ZooMove();
-
-      $(".lightgallery").lightGallery();
-
-    });
 
     </script>
 

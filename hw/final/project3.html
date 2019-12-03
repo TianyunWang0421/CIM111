@@ -89,10 +89,17 @@
         width: auto;
         height: auto;
         margin: 0 auto;
-        margin-left: 40px;
         display: grid;
-        grid-template-rows: 300px 150px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        grid-row-gap: 20px;
+      }
+
+      .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
       }
 
       .grid{
@@ -115,10 +122,10 @@
     <main>
       <h2 id="h2">PROJECT 3</h2>
       <section id="grid1">
-        <img src="images/Franceposter.png" alt="Franceposter" width="200">
-        <img src="images/Italyposter.png" alt="Italyposter" width="200">
-        <img src="images/trifold1.png" alt="trifold1" width="200">
-        <img src="images/trifold2.png" alt="trifold2" width="200">
+        <img class="center" src="images/Franceposter.png" alt="Franceposter" width="800px">
+        <img class="center" src="images/Italyposter.png" alt="Italyposter" width="800px">
+        <img class="center" src="images/trifold1.png" alt="trifold1" width="800px">
+        <img class="center" src="images/trifold2.png" alt="trifold2" width="800px">
 
       </section>
 

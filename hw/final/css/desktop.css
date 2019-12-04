@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+
+header{
+  color: white;
+  background-color: #49274A;
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: auto;
+  height: 250px;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+}
+
+#h1{
+  text-align: center;
+}
+
+nav{
+  color: black;
+  width: 580px;
+  margin: auto;
+  font-size: 18px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+  margin-left: 1px;
+  padding: 8px;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  font-weight: bolder;
+}
+
+main{
+  background-color: #F8EEE7;
+  width: auto;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
+  font-family: 'Baskervville', serif;
+}
+
+footer{
+  color: white;
+  background-color: #49274A;
+  width: auto;
+  height: 10px;
+  padding: 0px 20px 18px 40px;
+  margin: 0 auto;
+  margin-top: -20px;
+  font-family: 'Bree Serif', serif;
+}
+
+.title{
+  color: black;
+  font-family: 'Bree Serif', serif;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+#grid1{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 40px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 60px;
+}
+
+#grid2{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 40px;
+  display: grid;
+}
+
+#grid3{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  display: grid;
+}
+
+span.tip{
+  position: absolute;
+  z-index: 2;
+  display: none;
+  color: white;
+  font-size: 15px;
+  max-width: 150px;
+  height: auto;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px #666;
+  background: #0F1626;
+}
+
+#colored-button .btn{
+  color: black;
+}
+
+#colored-button a, a:hover{
+  background: #EFEFEF;
+}

@@ -25,16 +25,18 @@
 
       nav{
         color: black;
-        background-color: #EFEFEF;
-        width: 430px;
+        background-color: Lavender;
+        width: 55px;
+        height: auto;
         margin: auto;
+        margin-left: 20px;
+        font-size: 12px;
         border-style: dashed;
-        border-width: 4px;
-        border-color: #94618E;
-        font-size: 18px;
+        border-width: 2px;
+        border-color: MediumPurple;
       }
 
-      nav ul li{
+      nav a{
         list-style: none;
         display: inline-block;
         margin: auto;
@@ -42,12 +44,12 @@
         padding: 8px;
       }
 
-      nav ul li a{
+      nav a{
         color: black;
         text-decoration: none;
       }
 
-      nav ul li a:hover{
+      nav a:hover{
         font-weight: bolder;
       }
 
@@ -91,8 +93,9 @@
         margin: 0 auto;
         margin-left: 40px;
         display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 50px;
       }
 
       .grid{
@@ -103,22 +106,33 @@
         display: grid;
       }
 
-
     </style>
   </head>
   <body>
     <header>
       <h1 class="header">LYDIA'S PORTFOLIO</h1>
       <h2 class="header">PROJECTS</h2>
+
+      <nav>
+        <a href="final.html">HOME</a>
+      </nav>
     </header>
 
     <main>
       <h2 id="h2">PROJECT 1</h2>
-      <section id="grid1" class="cover">
-        <a href="https://lydiawang0421.github.io/CIM111/hw/resumecss/index.html"><img src="images/resume.png" alt="resume" width="200"></a>
-        <a href="https://lydiawang0421.github.io/CIM111/hw/responsive/responsive.html"><img src="images/travel.png" alt="travel" width="200"></a>
-        <a href="https://lydiawang0421.github.io/CIM111/hw/howtoWebsite/howto.html"><img src="images/howto.png" alt="howto" width="200"></a>
-
+      <section id="grid1">
+        <section>
+          <h3>MY RESUME</h3>
+          <a href="https://lydiawang0421.github.io/CIM111/hw/resumecss/index.html"><img src="images/resume.png" alt="resume" width="400"></a>
+        </section>
+        <section>
+          <h3>FRANCE TRAVELING</h3>
+          <a href="https://lydiawang0421.github.io/CIM111/hw/responsive/responsive.html"><img src="images/travel.png" alt="travel" width="400"></a>
+        </section>
+        <section>
+          <h3>HOW TO MAKE <br> COCONUT JELLY</h3>
+          <a href="https://lydiawang0421.github.io/CIM111/hw/howtoWebsite/howto.html"><img src="images/howto.png" alt="howto" width="400"></a>
+        </section>
       </section>
 
       <br>
@@ -136,24 +150,14 @@
       <br>
       <h3 class="title">DESCRIPTION</h3>
       <section class="grid">
-        <p>Use html/css/javascript to build websites</p>
+        <p>Use html/ css/ javascript to build websites</p>
       </section>
 
     </main>
 
     <footer>
-      <p>@ 2019 by Lydia Wang</p>
+      <p>@ 2019 by Lydia Wang. </p>
     </footer>
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-
-
-        });
-    </script>
-
 
   </body>
 </html>

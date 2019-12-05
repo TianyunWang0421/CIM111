@@ -1,0 +1,55 @@
+@import "desktoppg.css";
+
+header{
+  width: auto;
+  height: auto;
+}
+
+main{
+  width: auto;
+  height: auto;
+}
+
+footer{
+  width: auto;
+  height: auto;
+}
+
+h3{
+  font-size: smaller;
+}
+
+#grid1pg1{
+  display: block;
+}
+
+#grid1pg1 img{
+  width: 200px;
+}
+
+#grid1pg2{
+  display: block;
+}
+
+#grid1pg3{
+  display: block;
+  width: auto;
+}
+
+#grid1pg3 img{
+  width: 200px;
+}
+
+#grid1pg4{
+  display: block;
+  width: auto;
+  grid-row-gap: 20px;
+}
+
+#grid1pg4 img{
+  width: 200px;
+}
+
+.grid{
+  display: block;
+}

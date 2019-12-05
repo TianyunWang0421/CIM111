@@ -4,41 +4,48 @@
 header{
   color: white;
   background-color: #49274A;
-  background-image: url('../images/bg.png');
-  background-size: contain;
   width: auto;
-  height: 250px;
+  height: auto;
   padding: 20px 20px 20px 20px;
   margin: 0 auto;
   font-family: 'Bree Serif', serif;
-  font-size: 24px;
+  font-size: 22px;
 }
 
-#h1{
+#headerpg3{
+  background-image: url('../images/bgpage.png');
+  background-size: contain;
+  background-position: center;
+}
+
+.header{
   text-align: center;
 }
 
 nav{
   color: black;
-  width: 580px;
+  background-color: Lavender;
+  width: 55px;
+  height: auto;
   margin: auto;
-  font-size: 18px;
+  margin-left: 20px;
+  font-size: 12px;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: MediumPurple;
 }
 
-nav ul li{
+nav a{
   list-style: none;
   display: inline-block;
   margin: auto;
   margin-left: 1px;
   padding: 8px;
-}
-
-nav ul li a{
   color: black;
   text-decoration: none;
 }
 
-nav ul li a:hover{
+nav a:hover{
   font-weight: bolder;
 }
 
@@ -49,7 +56,7 @@ main{
   padding: 20px 20px 20px 20px;
   margin: 0 auto;
   font-family: 'Baskervville', serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 footer{
@@ -63,59 +70,72 @@ footer{
   font-family: 'Bree Serif', serif;
 }
 
+#h2{
+  color: black;
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
 .title{
   color: black;
   font-family: 'Bree Serif', serif;
   font-size: 22px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
-#grid1{
+#grid1pg1{
   width: auto;
   height: auto;
   margin: 0 auto;
   margin-left: 40px;
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto auto auto auto;
-  grid-row-gap: 60px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 50px;
 }
 
-#grid2{
+#grid1pg2{
   width: auto;
   height: auto;
   margin: 0 auto;
   margin-left: 40px;
   display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
 }
 
-#grid3{
+#grid1pg3{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto;
+  grid-row-gap: 20px;
+}
+
+#grid1pg4{
   width: auto;
   height: auto;
   margin: 0 auto;
   margin-left: 40px;
-  margin-bottom: 30px;
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
 }
 
-span.tip{
-  position: absolute;
-  z-index: 2;
-  display: none;
-  color: white;
-  font-size: 15px;
-  max-width: 150px;
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid{
+  width: auto;
   height: auto;
-  padding: 10px;
-  border-radius: 3px;
-  box-shadow: 0 1px 2px #666;
-  background: #0F1626;
-}
-
-#colored-button .btn{
-  color: black;
-}
-
-#colored-button a, a:hover{
-  background: #EFEFEF;
+  margin: 0 auto;
+  margin-left: 40px;
+  display: grid;
 }

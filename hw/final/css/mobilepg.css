@@ -24,11 +24,15 @@ h3{
 }
 
 #grid1pg1 img{
-  width: 200px;
+  width: 250px;
 }
 
 #grid1pg2{
   display: block;
+}
+
+#grid1pg2 img{
+  width: 250px;
 }
 
 #grid1pg3{
@@ -37,7 +41,7 @@ h3{
 }
 
 #grid1pg3 img{
-  width: 200px;
+  width: 250px;
 }
 
 #grid1pg4{
@@ -47,7 +51,7 @@ h3{
 }
 
 #grid1pg4 img{
-  width: 200px;
+  width: 250px;
 }
 
 .grid{

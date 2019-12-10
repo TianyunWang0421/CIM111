@@ -47,11 +47,12 @@ h3{
 #grid1pg4{
   display: block;
   width: auto;
-  grid-row-gap: 20px;
+
 }
 
 #grid1pg4 img{
   width: 250px;
+  margin-bottom: 20px;
 }
 
 .grid{

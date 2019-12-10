@@ -1,0 +1,3 @@
+#Lydia Wang’s Portfolio
+
+This project is about Lydia Wang’s Portfolio. Since Lydia is interested in web design and wants to pursue a career for it, she is doing her portfolio to collect all her works together. This project can be viewed for everyone, especially the web professionals, employers, and the graduate school officers. In other words, it will be used to show others about Lydia’s web design and graphic design skills in many ways. The purpose of this project is to keep track of every work Lydia did and every progress she made throughout her way to be a web person. The works and arts in this project are from Lydia’s classes during the Fall 2019 semester, which she is at the beginning stage of all her designs. 

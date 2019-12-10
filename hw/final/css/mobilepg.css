@@ -25,6 +25,7 @@ h3{
 
 #grid1pg1 img{
   width: 250px;
+  margin-bottom: 35px;
 }
 
 #grid1pg2{
@@ -35,6 +36,10 @@ h3{
   width: 250px;
 }
 
+#grid1pg2 p{
+  margin-bottom: 60px;
+}
+
 #grid1pg3{
   display: block;
   width: auto;
@@ -42,12 +47,12 @@ h3{
 
 #grid1pg3 img{
   width: 250px;
+  margin-bottom: 25px;
 }
 
 #grid1pg4{
   display: block;
   width: auto;
-
 }
 
 #grid1pg4 img{
